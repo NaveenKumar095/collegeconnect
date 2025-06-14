@@ -1,0 +1,30 @@
+/* news.css */
+
+main h2 {
+  font-weight: bold;
+  color: #00264d;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  border-radius: 2vh;
+  box-shadow: 2px 2px 30px #f8ceb3;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00264d;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}

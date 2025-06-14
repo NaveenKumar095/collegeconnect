@@ -1,0 +1,128 @@
+/* style.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8ece4;
+}
+
+.activa:hover{
+    background-color: #e27831;
+    color: #fff;
+}
+
+nav .cont{
+    background-color: #e7e7e7;
+    color: #fff;
+}
+
+nav .cont a:hover{
+    color: #a75a27;
+}
+
+.profile-img{
+    max-height: 4vh;
+}
+
+.activa{
+    background-color: #e27831;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.hero-img{
+    width: 80vw;
+    /* height: 90vh; */
+}
+
+.space1{
+    width: 50vw;
+    height: 5vh;
+    margin: auto;
+    background-color: #e7e7e7;
+    border-top-left-radius: 10vh;
+    border-top-right-radius: 10vh;
+    /* border-bottom: 1px solid #000; */
+}
+
+.space2{
+    background-color: #e7e7e7;
+    width: 80vw;
+    border-top-left-radius: 10vh;
+    border-top-right-radius: 10vh;
+    /* border-bottom: 1px solid #000; */
+    color: #545454;
+}
+
+.space3{
+    height: 7vh;
+    width: 100vw;
+    background-color: #e7e7e7;
+    border-top-left-radius: 10vh;
+    border-top-right-radius: 10vh;
+    /* border-bottom: 1px solid #000; */
+    color: #545454;
+}
+
+.bg{
+    background-color: #f8f9fa;
+    border-radius: 10vh;
+}
+
+footer{
+    background-color: #f8ceb3;
+    color: #252b35;
+    /* color: #fff; */
+}
+
+footer a{
+    text-decoration: none;
+    color: #252b35;
+}
+
+footer a:hover{
+    color: #a75a27;
+}
+
+.but{
+    background-color: #e27831;
+    color: #fff;
+    border: 1px solid #e27831;
+    border-radius: 10vh;
+    transition: all 0.3s ease;
+}
+
+.but:hover{
+    background-color: #a75a27;
+    border: 1px solid #a75a27;
+}
+
+.but:active{
+    background-color: #a75a27;
+    border: 1px solid #a75a27;
+}
+
+.card{
+    box-shadow: 2px 2px 30px #f8ceb3;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+}
+
+.headding{
+    font-weight: 800;
+}
+
+@media (max-width:768px) {
+    .space1, .space2, .space3{
+        background: none;
+        text-align: center;
+    }
+}

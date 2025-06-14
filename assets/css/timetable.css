@@ -1,0 +1,83 @@
+/* timetable.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.but{
+    color: #fff;
+}
+
+.input{
+    border-radius: 10vh;
+    background-color: #f7b78d;
+    border: 1px solid #e27831;
+    color: #252b35;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.input:hover{
+    background-color: #f99a5a;
+}
+
+.heas, .head{
+    font-weight: bolder;
+}
+
+/* .drop{
+    background-color: aliceblue;
+} */
+
+table {
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fae8dc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+tbody td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8ceb3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .head{
+        display: none;
+    }
+
+    tbody td {
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    tbody td::before {
+        content:'';
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 45%;
+        padding-right: 1rem;
+        white-space: nowrap;
+        font-weight: bold;
+        color: #e27831;
+        
+    }
+}
